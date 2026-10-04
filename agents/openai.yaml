@@ -1,0 +1,4 @@
+interface:
+  display_name: "场外 QDII 基金查询"
+  short_description: "查询场外 QDII 申购状态、限额、渠道与公告来源"
+  default_prompt: "使用 $qdii-otc-fund-query 查询今天可申购的场外 QDII 基金及渠道限额。"
