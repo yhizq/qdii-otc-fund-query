@@ -1,0 +1,20 @@
+{
+  "name": "qdii-otc-fund-query",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent Skill for querying public off-exchange QDII fund purchase limits in China.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "query": "node scripts/query-qdii.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "agent-skills",
+    "qdii",
+    "funds",
+    "purchase-limits"
+  ]
+}
